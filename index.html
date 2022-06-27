@@ -70,7 +70,8 @@
 
 		function checkCookie() {
 			var user = getCookie("username");
-			if (user != "") { window.location='https://d0hnyqr7a0.execute-api.us-east-2.amazonaws.com/'; }
+			var website = "https://d0hnyqr7a0.execute-api.us-east-2.amazonaws.com/";
+			if (user != "") { window.location=website; }
 		}
 
 	function newTyped() { /* A new typed object */ }
@@ -108,7 +109,8 @@
 			var user = getCookie("username");
 			user = "iste_seniors";
 			if (user != "" && user != null) { setCookie("username", user); }
-			window.location='https://d0hnyqr7a0.execute-api.us-east-2.amazonaws.com/';
+			var website = "https://d0hnyqr7a0.execute-api.us-east-2.amazonaws.com/";
+			window.location=website;
 		}, 4000);
 	}
 	function click_on_me_out() {
@@ -125,7 +127,8 @@
 			if (user != "" && user != null) {
 				setCookie("username", user);
 			}
-			window.location='https://d0hnyqr7a0.execute-api.us-east-2.amazonaws.com/';
+			var website = "https://d0hnyqr7a0.execute-api.us-east-2.amazonaws.com/";
+			window.location=website;
 		}, 4000);
 	}
 </script>
